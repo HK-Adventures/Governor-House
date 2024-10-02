@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: 400;
+}
+.headerbuttons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: fit-content;
+    height: 50px;
+    font-weight: 400;
+    font-size: larger;
+    gap: 100px;
+}
+.maincolor {
+    color: rgb(163, 24, 168);
+}
+.body {
+    display: flex;
+    font-size: xx-large;
+    font-weight: 600;
+    width: fit-content;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.contactinfo {
+    display: flex;
+    width: fit-content;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+.headerbuttons li:hover {
+    color: #ffffff;
+    transform: scale(2);
+    transition: 0.5s;
+}
+.protfolio {
+    display: flex;
+    width: fit-content;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: large;
+    font-weight: 400;
+}
